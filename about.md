@@ -4,12 +4,15 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Independent consultant and Visual Studio ALM MVP
+
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+[Main blog](http://hermit.no)   
+[About me](http://about.me/terjes)
+
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+Send me a private message on Facebook or Twitter
