@@ -21,7 +21,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{D69BFB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wiki", "Wiki", "{881FA7DF-9397-46A2-A3D5-17EBFBED1E66}"
 	ProjectSection(SolutionItems) = preProject
-		_wiki\wiki.md = _wiki\wiki.md
+		wiki\git.md = wiki\git.md
+		wiki\gitinstall.md = wiki\gitinstall.md
+		wiki\wiki.md = wiki\wiki.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Implementation", "Implementation", "{7601ECCD-2A10-404C-A7F8-6F481419BA8A}"
@@ -32,8 +34,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Implementation", "Implement
 		_layouts\post.html = _layouts\post.html
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Img", "Img", "{A9F9A0E8-571D-4E51-B299-77256E98551A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wiki", "wiki", "{BBCED6D6-FB77-4BC1-8B53-8AFBCA92662D}"
+	ProjectSection(SolutionItems) = preProject
+		img\wiki\gitinstall.png = img\wiki\gitinstall.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BBCED6D6-FB77-4BC1-8B53-8AFBCA92662D} = {A9F9A0E8-571D-4E51-B299-77256E98551A}
 	EndGlobalSection
 EndGlobal
