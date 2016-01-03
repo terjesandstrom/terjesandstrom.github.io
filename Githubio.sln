@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AC10AEF1-7238-4247-AD7A-2940B8086F8B}"
+	ProjectSection(SolutionItems) = preProject
+		about.md = about.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Posts", "Posts", "{D0DB883B-A39C-426E-B1B0-C16DE2FD118F}"
+	ProjectSection(SolutionItems) = preProject
+		_posts\2014-3-3-Hello-World.md = _posts\2014-3-3-Hello-World.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{D69BFB3B-85F4-490B-926B-1F1F428F3FCA}"
+	ProjectSection(SolutionItems) = preProject
+		_config.yml = _config.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wiki", "Wiki", "{881FA7DF-9397-46A2-A3D5-17EBFBED1E66}"
+	ProjectSection(SolutionItems) = preProject
+		_wiki\wiki.md = _wiki\wiki.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Implementation", "Implementation", "{7601ECCD-2A10-404C-A7F8-6F481419BA8A}"
+	ProjectSection(SolutionItems) = preProject
+		_layouts\default.html = _layouts\default.html
+		_layouts\page.html = _layouts\page.html
+		_layouts\post.html = _layouts\post.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
