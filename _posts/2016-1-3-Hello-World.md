@@ -5,4 +5,4 @@ published: true
 ---
 
 
-This site is made to hold a set of [wiki pages](wiki/wiki), with bits and pieces of information.   For other information go to my  [main blog](http://hermit.no)
+This is a [wiki](http://terjesandstrom.github.io/wiki/wiki) site with bits and pieces of information I have gathered.   For other information go to my  [main blog](http://hermit.no)
