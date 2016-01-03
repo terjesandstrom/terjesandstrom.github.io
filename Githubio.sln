@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wiki", "Wiki", "{881FA7DF-9
 	ProjectSection(SolutionItems) = preProject
 		wiki\git.md = wiki\git.md
 		wiki\gitinstall.md = wiki\gitinstall.md
+		wiki\nunit.md = wiki\nunit.md
+		wiki\visualstudio.md = wiki\visualstudio.md
 		wiki\wiki.md = wiki\wiki.md
 	EndProjectSection
 EndProject

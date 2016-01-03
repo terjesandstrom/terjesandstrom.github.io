@@ -7,10 +7,8 @@ category: wiki
 Miscellaneous bits and pieces of information on tools and coding
 
 [Git](git)  
-[Git](git.md)  
-[Git](wiki/git.md)  
-[NUnit](nunit.md)  
-[Visual Studio](visualstudio.md)  
+[NUnit](nunit)  
+[Visual Studio](visualstudio)  
 
 
 

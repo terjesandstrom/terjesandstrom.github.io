@@ -4,6 +4,6 @@ title: Git
 category: wiki
 ---
 
-[Installing git with Visual Studio](gitinstall.md)   
+[Installing git with Visual Studio](gitinstall)   
 
 
