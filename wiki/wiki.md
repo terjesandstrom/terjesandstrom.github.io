@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Terje's wiki
-permalink: /wiki/
+category: wiki
 ---
 
 Miscellaneous bits and pieces of information on tools and coding

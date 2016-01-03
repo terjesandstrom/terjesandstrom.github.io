@@ -27,6 +27,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Implementation", "Implementation", "{7601ECCD-2A10-404C-A7F8-6F481419BA8A}"
 	ProjectSection(SolutionItems) = preProject
 		_layouts\default.html = _layouts\default.html
+		index.html = index.html
 		_layouts\page.html = _layouts\page.html
 		_layouts\post.html = _layouts\post.html
 	EndProjectSection
