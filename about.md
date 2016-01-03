@@ -2,7 +2,9 @@
 layout: page
 title: About
 permalink: /about/
+published: true
 ---
+
 
 Independent consultant and Visual Studio ALM MVP
 
@@ -15,4 +17,4 @@ Independent consultant and Visual Studio ALM MVP
 
 ### Contact me
 
-Send me a private message on Facebook or Twitter
+Send me a private message on [Facebook](http://facebook.com/Terje.Sandstrom) or [Twitter](http://twitter.com/OsirisTerje)
