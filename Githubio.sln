@@ -34,6 +34,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Implementation", "Implement
 		index.html = index.html
 		_layouts\page.html = _layouts\page.html
 		_layouts\post.html = _layouts\post.html
+		_layouts\wiki.html = _layouts\wiki.html
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Img", "Img", "{A9F9A0E8-571D-4E51-B299-77256E98551A}"
