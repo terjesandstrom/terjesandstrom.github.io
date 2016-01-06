@@ -4,7 +4,7 @@ title: Terje's wiki
 category: wiki
 ---
 
-Miscellaneous bits and pieces of information on tools and coding
+Miscellaneous bits and pieces on tools and coding
 
 [Git](git)  
 [NUnit](nunit)  
