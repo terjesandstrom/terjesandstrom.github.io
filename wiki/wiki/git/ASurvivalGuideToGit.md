@@ -23,9 +23,9 @@ Fig. 1
 
 ### There are 3 storage locations in Git:   
 
-*A:  A remote repository.  In KM we have this in our TFS Server, and they are currently located either in the Projects Team Project, or in parallel with the TFS VC in Nemo and EnterpriseApplications  
-*B:  Your local Clone of the remote repository.  This clone is a full fledged source control system, with all the bells and whistles. 
-*C: Your local workspace.  This is where your files you are working on are located. 
+*A:  A remote repository.  In KM we have this in our TFS Server, and they are currently located either in the Projects Team Project, or in parallel with the TFS VC in Nemo and EnterpriseApplications     
+*B:  Your local Clone of the remote repository.  This clone is a full fledged source control system, with all the bells and whistles.    
+*C: Your local workspace.  This is where your files you are working on are located.    
 
 If you open your local git folder, it will look like this:   
 
@@ -40,13 +40,14 @@ See Fig 1 again.
 
 
 | Step   | Command   | Effect    |   
-| Start | Clone | Clone copies from the external repository (A) and down into your local repository (B) and then also to your workspace (C)
+|:-------|:---------:|----------:|
+| Start  | Clone     | Clone copies from the external repository (A) and down into your local repository (B) and then also to your workspace (C)
 You do this only the first time.|
-| 1 | Pull| Copies new commits down from the remote repository (A), into your local repository (B) and also into your workspace(C)|
-| 2 |  code| Just work on the files in your workspace, local or using VS|
-| 3 | Commit|	Commit a set of files, add a comment, and optionally a work item ID (#12345). Moves these files into the local git repository (B).|
-| 4 | Push| Copies whatever is in your local git repository (B) (committed, and not formerly pushed), up to your remote git repository (A).|
-{: rules="groups"}
+| 1      | Pull      | Copies new commits down from the remote repository (A), into your local repository (B) and also into your workspace(C)|
+| 2      |  code     | Just work on the files in your workspace, local or using VS|
+| 3      | Commit    |	Commit a set of files, add a comment, and optionally a work item ID (#12345). Moves these files into the local git repository (B).|
+| 4      | Push      | Copies whatever is in your local git repository (B) (committed, and not formerly pushed), up to your remote git repository (A).|
+{: rules="table"}
 
 The first time only, you do the "Start" - which is to Clone. 
 
