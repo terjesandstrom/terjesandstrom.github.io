@@ -34,7 +34,8 @@ The workspace is the rest of the files and folders in parallel with the .git fol
 
 ##Scenario 1:  The basic workflow in Git is as follows:
 See Fig 1 again.  
-<div class="table">
+
+
 | Step   | Command   | Effect    |   
 | Start | Clone | Clone copies from the external repository (A) and down into your local repository (B) and then also to your workspace (C)
 You do this only the first time.|
@@ -42,7 +43,7 @@ You do this only the first time.|
 | 2 |  code| Just work on the files in your workspace, local or using VS|
 | 3 | Commit|	Commit a set of files, add a comment, and optionally a work item ID (#12345). Moves these files into the local git repository (B).|
 | 4 | Push| Copies whatever is in your local git repository (B) (committed, and not formerly pushed), up to your remote git repository (A).|
-</div>
+{: rules="groups"}
 
 The first time only, you do the "Start" - which is to Clone. 
 
