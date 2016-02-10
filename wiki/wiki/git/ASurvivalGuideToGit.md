@@ -41,8 +41,7 @@ See Fig 1 again.
 
 | Step   | Command   | Effect    |   
 |:------:|:----------|:----------|
-| Start  | Clone     | Clone copies from the external repository (A) and down into your local repository (B) and then also to your workspace (C)
-You do this only the first time.|
+| Start  | Clone     | Clone copies from the external repository (A) and down into your local repository (B) and then also to your workspace (C). You do this only the first time.|
 | 1      | Pull      | Copies new commits down from the remote repository (A), into your local repository (B) and also into your workspace(C)|
 | 2      |  code     | Just work on the files in your workspace, local or using VS|
 | 3      | Commit    |	Commit a set of files, add a comment, and optionally a work item ID (#12345). Moves these files into the local git repository (B).|
