@@ -1,5 +1,5 @@
 ---
-layout: wiki
+layout: page
 title: A survival guide to Git
 description: First basic steps to use git
 date: 2016-02-08 19:08:45 +01:00

@@ -1,5 +1,5 @@
 ---
-layout: wiki
+layout: page
 title: Git
 category: wiki
 ---
