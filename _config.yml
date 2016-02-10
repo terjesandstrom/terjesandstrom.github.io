@@ -53,11 +53,11 @@ baseurl: ""
 # !! You don't need to change any of the configuration flags below !!
 #
 
-#markdown: kramdown
-#highlighter: rouge
+markdown: kramdown
+highlighter: rouge
 
-markdown: redcarpet
-highlighter: pyments
+#markdown: redcarpet
+#highlighter: pyments
 
 permalink: /:title/
 
