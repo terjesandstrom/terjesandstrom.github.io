@@ -12,14 +12,14 @@ It concentrates on the bare minimum you need to know in order to be able to use 
 It assumes you are using Visual Studio 2013 U4 or 2015. 
 We start with a simple scenario, that of a single developer working alone.  With alone we mean, "at the same time".  
 
-#Concepts
-##What are the basic elements of Git
+# Concepts   
+## What are the basic elements of Git   
 A very quick introduction to the basic elements you need to know :    
 
 ![ASurvivalGuideToGit1](../ASurvivalGuideToGit_images/ASurvivalGuideToGit1.png)
 Fig. 1   
 
-###There are 3 storage locations in Git:   
+### There are 3 storage locations in Git:   
 *A:  A remote repository.  In KM we have this in our TFS Server, and they are currently located either in the Projects Team Project, or in parallel with the TFS VC in Nemo and EnterpriseApplications  
 *B:  Your local Clone of the remote repository.  This clone is a full fledged source control system, with all the bells and whistles. 
 *C: Your local workspace.  This is where your files you are working on are located. 
@@ -32,7 +32,7 @@ Fig 2
 The git repository (B above), is the folder named .git.  Inside there is a lot of files, and you don't want to go in there.
 The workspace is the rest of the files and folders in parallel with the .git folder.
 
-##Scenario 1:  The basic workflow in Git is as follows:
+## Scenario 1:  The basic workflow in Git is as follows:
 See Fig 1 again.  
 
 
