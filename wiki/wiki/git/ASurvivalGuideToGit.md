@@ -16,7 +16,7 @@ We start with a simple scenario, that of a single developer working alone.  With
 ##What are the basic elements of Git
 A very quick introduction to the basic elements you need to know :    
 
-![ASurvivalGuideToGit1](ASurvivalGuideToGit_images\ASurvivalGuideToGit1.png)
+![ASurvivalGuideToGit1](ASurvivalGuideToGit_images/ASurvivalGuideToGit1.png)
 Fig. 1   
 
 ###There are 3 storage locations in Git:   
@@ -26,7 +26,7 @@ Fig. 1
 
 If you open your local git folder, it will look like this:   
 
-![ASurvivalGuideToGit2](ASurvivalGuideToGit_images\ASurvivalGuideToGit2.png)
+![ASurvivalGuideToGit2](ASurvivalGuideToGit_images/ASurvivalGuideToGit2.png)
 Fig 2   
 
 The git repository (B above), is the folder named .git.  Inside there is a lot of files, and you don't want to go in there.
