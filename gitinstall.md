@@ -2,6 +2,7 @@
 layout: page
 title: Installing Git with Visual Studio
 category: wiki
+permalink: gitinstall
 ---
 
 When you start up Visual Studio the first time, and go to any git part, you will see a warning stating you need to install 3rd-party Git command line tools.   

@@ -2,6 +2,7 @@
 layout: page
 title: Git
 category: wiki
+permalink: git
 ---
 
 [Installing git with Visual Studio](gitinstall)   

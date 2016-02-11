@@ -61,8 +61,8 @@ highlighter: rouge
 #markdown: redcarpet
 #highlighter: pyments
 
-permalink: /:title/
-
+#permalink: /:title/
+permalink: none   
 # The release of Jekyll Now that you're using
 version: v1.1.0
 
