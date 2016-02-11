@@ -18,7 +18,7 @@ We start with a simple scenario, that of a single developer working alone.  With
    
 A very quick introduction to the basic elements you need to know :    
 
-![ASurvivalGuideToGit1](../ASurvivalGuideToGit_images/ASurvivalGuideToGit1.png)
+![ASurvivalGuideToGit1](ASurvivalGuideToGit_images/ASurvivalGuideToGit1.png)
 Fig. 1   
 
 ### There are 3 storage locations in Git:   
@@ -29,7 +29,7 @@ Fig. 1
 
 If you open your local git folder, it will look like this:   
 
-![ASurvivalGuideToGit2](../ASurvivalGuideToGit_images/ASurvivalGuideToGit2.png)
+![ASurvivalGuideToGit2](ASurvivalGuideToGit_images/ASurvivalGuideToGit2.png)
 Fig 2   
 
 The git repository (B above), is the folder named .git.  Inside there is a lot of files, and you don't want to go in there.
@@ -61,9 +61,9 @@ After first clone, the recommended work sequence - for a single developer - is
 It is customary to commit very often during the day, and push when you have a set of commits, or at least a couple of times a day.  
 Note that as long as things are in your local repository, you can regret, but once it is pushed, there are no regrets.
 
-[How to do this in Visual Studio](../GitScenario1InVS)
+[How to do this in Visual Studio](GitScenario1InVS)
 
 
 
 
-[Next :  Traps in Git](../TrapsInGit)
+[Next :  Traps in Git](TrapsInGit)
