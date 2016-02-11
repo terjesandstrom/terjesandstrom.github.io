@@ -4,6 +4,7 @@ title: A survival guide to Git
 description: First basic steps to use git
 date: 2016-02-08 19:08:45 +01:00
 tags: "git"
+permalink: ASurvivalGuideToGit
 ---
 
 This guide is intended for those that feel the stuff on Git is [TL;DR](https://en.wikipedia.org/wiki/Wikipedia:Too_long;_didn%27t_read);, like this [great post](http://think-like-a-git.net/).    
