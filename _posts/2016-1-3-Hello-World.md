@@ -5,13 +5,9 @@ published: true
 ---
 
 
-This is a [wiki](http://terjesandstrom.github.io/wiki/wiki) site with bits and pieces of information I have gathered.   For other information go to my  [main blog](http://hermit.no)
+This is my [wiki](http://terjesandstrom.github.io/wiki.html) site with bits and pieces of information I have gathered.   
+Go to my  [public blog](http://hermit.no) for more information
 
-# Header 1
 
-Some content
 
-# Header 2
-
-Some other content
 
