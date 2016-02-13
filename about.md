@@ -9,6 +9,9 @@ published: true
 Independent consultant and Visual Studio ALM MVP
 
 
+Go straight to the [wiki](wiki.md)
+
+
 ### More Information
 
 [Main blog](http://hermit.no)   
