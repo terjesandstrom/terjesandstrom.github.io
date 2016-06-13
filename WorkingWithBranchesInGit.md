@@ -27,6 +27,7 @@ This is smart to do, since it makes it easier to see what these remote commits a
 ![WorkingWithBranchesInGit1](WorkingWithBranchesInGit_images\WorkingWithBranchesInGit1.png)
 
 And we see that the commit from the remote updated an existing class, whereas we locally added a new class.  This should not create any conflicts.  But we do have a branching here that needs to come together:
+
 ![WorkingWithBranchesInGit2](WorkingWithBranchesInGit_images\WorkingWithBranchesInGit2.png)
 
 And that must happen before we can push, so we have now no choice but to merge these two commits.
@@ -92,7 +93,7 @@ Now, on the Branches hub, select the Merge
 And in the dropbox appearing, you choose the Master branch, and then press Merge
 
 |   Before Merge  |  After Merge |
-|-------|--------|
+|-------|:--------:|
 |![WorkingWithBranchesInGit12](WorkingWithBranchesInGit_images\WorkingWithBranchesInGit12.png)|![WorkingWithBranchesInGit13](WorkingWithBranchesInGit_images\WorkingWithBranchesInGit13.png)|
 
 
