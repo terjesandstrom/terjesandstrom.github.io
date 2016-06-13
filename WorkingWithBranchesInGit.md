@@ -98,6 +98,45 @@ And in the dropbox appearing, you choose the Master branch, and then press Merge
 You now have a branch and a commit which you can use to test the merge.  If it works, you can then choose whether to merge it to your local working branch, or merge it back to master.  If you merge it back to master, you can then merge master back to TerjeWork again, and then continue working.  
 
 
+Also note that you **can** choose to do nothing, after having looked at the master changes, and just continue working in your own branch. That is a very normal situation. 
+
+## Some branching practices
+
+### Naming of branches
+
+You can name a branch anything, and in Git that is rather normal.  Due to the low cost of branching and merging, there is little consequence in making a new branch.  
+But there are some conventions for naming that could be wise to look into.  We will look into these later, but names like [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/) and [GitHub Flow](https://guides.github.com/introduction/flow/) can be mentioned.
+
+### Grouping of branches
+
+When talking about naming of branches, there is one trick that can be useful.  A branch can be named with a '\', and that causes the git UIs to treat what is in front of the '\' as a group or folder, and what is after the '\' as the branch name proper.  The truth, mind you, is that the branch name is really the whole thing.
+
+Assume we want to handle our bugs in a particular way, we want to keep an easy track of them, so we keep them in the same "group", called Bug.  When we then get a bug, we create a branch for the fix named like  "Bug\NameIsWrong".  (We could even add the Workitem number here, alone or as part of the name of the branch, if that makes sense to us)
+
+Let us create this branch and see how it looks:
+
+![WorkingWithBranchesInGit14](WorkingWithBranchesInGit_images\WorkingWithBranchesInGit14.png)
+
+Pretty nice !  (And this also works in SourceTree)
+
+
+
+### Deletion of branches
+
+If you delete a branch in TFS, the code is gone too (not really all true, because it can be undeleted, if you didn't purge it).  In Git you always just delete the pointer.  It is a common practice in git to delete branches.  
+
+### Publishing branches
+
+There is NO reason not to publish a branch in git.  It does no harm, it doesn't create or cause anything that can harm your project.  In TFS VC the thinking is that branches are costly, and many TFS VC people hang onto that belief.  Local branches is slowly accepted, but remote branches are still viewed as dangerous.   Again, they are not.
+
+### Don't publish ALL your branches
+
+Even if there are no reason not to publish a branch, there is a good reason why you should keep local branches local.  A published branch is available for everyone, and can't be changed afterwards.  A local branch **can** be changed afterwards in different ways, it is called "rewriting history", and it opens up some nice opportunities. More later on that too. 
+
+
+
+
+
 
 
 
