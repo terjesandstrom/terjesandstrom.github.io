@@ -10,7 +10,7 @@ permalink: WorkingWithBranchesInGit
 The [Branches in Git](BranchesInGit) explained the basics of how branches works in Git, and how they are very lightweight.
 If you are working by yourself, branches can be a convenience to keep yourself organised.  However, if you work in a small team, meaning from 2 or more developers working at the same time, then you **should** use local branches to keep a smooth work flow. 
 
-### Small team working without branches
+# Small team working without branches
 
 Two persons cooperates on working with the code.  One pushes up his commit, and the other tries to commit his, but is rewarded with a message saying he can't push, because there already are changes on the remote. 
 
@@ -49,7 +49,7 @@ The two commits marked (1) and (2) are the two we need to push up, if we do so, 
 
 Note how the remote master branch pointer now have moved up along with the local master branch pointer.  If you **think** "branches are pointers" it makes it easier to get a good grasp of this.  
 
-### Small team working with local branches
+# Small team working with local branches
 
 Let us now assume that you didn't really want to merge these changes in now, you wanted to (1) Just delay the merge, you didn't feel ready  (2) You wanted to share your code with another developer, but not the merged stuff  (3) You wanted to just see if your changes still builds on the server build. 
 
