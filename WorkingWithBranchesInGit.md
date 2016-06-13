@@ -21,7 +21,7 @@ This is the same as with TFS VC, you need to do a get latest first, which in Git
 And, when you do a Get Latest, you may get merge conflicts, and it is here the Git branches can help. 
 
 But first, let us see what we can do to get this to work nicely.
-We can do a Pull immidiately, and that may or may not trigger a merge.  But we can also start with a Fetch.  A  Fetch is the first part of a Pull.  From the [Git Survival Guide](ASurvivalGuideToGit) you see that the Pull brings the commits from the remote all the way down to the workspace.  A Fetch does the first part, it moves the commits from the remote in to the local repository, but does NOT move it into the workspace.  
+We can do a Pull immediately, and that may or may not trigger a merge.  But we can also start with a Fetch.  A  Fetch is the first part of a Pull.  From the [Git Survival Guide](ASurvivalGuideToGit) you see that the Pull brings the commits from the remote all the way down to the workspace.  A Fetch does the first part, it moves the commits from the remote in to the local repository, but does NOT move it into the workspace.  
 This is smart to do, since it makes it easier to see what these remote commits are, and if they possible could trigger some action on your side.
 
 ![WorkingWithBranchesInGit1](WorkingWithBranchesInGit_images\WorkingWithBranchesInGit1.png)
