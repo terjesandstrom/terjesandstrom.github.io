@@ -146,8 +146,9 @@ img {
 /*   TABLE STUFF */
 table {
   width:100%;
-  border-collapse:collapse;
-  border-spacing:1px;
+  border-collapse:seperate;
+  border-spacing:2px;
+  border-width: 2px;
   border:4px solid #F00000;
 }
 
