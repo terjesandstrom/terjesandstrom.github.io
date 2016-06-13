@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Working with branches in Git:  Scenario 2
-description: How to work with branches in git in small teams
+title: Working with branches in Git in small teams - Scenario 2
+description: How to work with branches in git
 date: 2016-02-08 19:08:45 +01:00
 tags: "git"
 permalink: WorkingWithBranchesInGit
