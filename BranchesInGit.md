@@ -81,6 +81,27 @@ Pulling a tracked branch, moves the local branch pointer to point to the same co
 
 Pushing a tracked branch, moves the remote branch pointer to point to the same commit as the local branch pointer.
 
+## Builds and git branches
+
+With TFS VC, a build is bound to a given branch folder.  Since branches are completely independent of folder structure in Git, a server build for a Git repository can build any branch.
+This comes in very handy for e.g. CI builds, where you really don't care which branch is building, you just want to check that it builds correctly on the server.
+
+You set it up as: follows (after you have created the build on the server):
+
+|   Before   |   Changing filter   |   After   |
+|----------|-----------|---------|
+|![BranchesInGit12](BranchesInGit_images\BranchesInGit12.png)|![BranchesInGit13](BranchesInGit_images\BranchesInGit13.png)|![BranchesInGit14](BranchesInGit_images\BranchesInGit14.png)|
+
+Go to the Triggers menu, and change the Filter, from Master (which is the default) to a simple '*'.   (It will say no branches matches, but that can be ignored, it should have said that all branches matches). 
+
+
+If we commit and push a change in the MyBranch, the build will be started for that branch.  We can see this in the overview for the builds:
+
+![BranchesInGit15](BranchesInGit_images\BranchesInGit15.png)
+
+The first build was started manually and worked on the master branch, the second was started from the commit in the MyBranch branch. 
+
+This means less maintenance of builds, and opens up from a more free use of branches.
 
 
 [Next:  Working with branches in small teams : Scenario 2](WorkingWithBranchesInGit)
