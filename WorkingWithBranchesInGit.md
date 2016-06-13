@@ -43,7 +43,7 @@ The merge worked with no conflicts, but we got another merge commit with the com
 
 ![WorkingWithBranchesInGit4](WorkingWithBranchesInGit_images\WorkingWithBranchesInGit4.png)
 
-The two commits marked (1) and (2) are the two we need to push up, if we do so, the remote master will be in sync with us.   It is smart to do this as soon as possible, so that we don't get more remote commits to merge in.  
+The two commits marked  1) and  2) are the two we need to push up, if we do so, the remote master will be in sync with us.   It is smart to do this as soon as possible, so that we don't get more remote commits to merge in.  
 
 ![WorkingWithBranchesInGit5](WorkingWithBranchesInGit_images\WorkingWithBranchesInGit5.png)
 
@@ -51,7 +51,7 @@ Note how the remote master branch pointer now have moved up along with the local
 
 # Small team working with local branches
 
-Let us now assume that you didn't really want to merge these changes in now, you wanted to (1) Just delay the merge, you didn't feel ready  (2) You wanted to share your code with another developer, but not the merged stuff  (3) You wanted to just see if your changes still builds on the server build. 
+Let us now assume that you didn't really want to merge these changes in now, you wanted to 1) Just delay the merge, you didn't feel ready  2) You wanted to share your code with another developer, but not the merged stuff  3) You wanted to just see if your changes still builds on the server build. 
 
 If you make it a habit of **always** working in a local branch,  these things can be done, and also, it opens up more possibilities.  
 
