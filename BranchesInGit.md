@@ -9,13 +9,13 @@ permalink: BranchesInGit
 
 This guide explains how branches in Git works, and compares it to branching concepts found in TFS (Old) Version Control, so it is mostly intended for thos developers making the transition from TFS VC to TFS Git, and in particular those using Visual Studio 2015.  Although most of the stuff is general in nature.
 
-#Background
+# Background
 You don't do branching in TFS VC without careful consideration.  It means a new folder structure, somewhat in parallel with the source folder you want to branch from.  You need to think of what builds you want to run on the branch, because you **must** clone those you have.  Cloning these are copies, so you increase your build maintenance for every branch you make.  If your project is large, you **must** have a clear convention for naming the branches, since they are costly to create and maintain.  You must think of the relationship you want between your branches, because merging between non-parent-child related branches is messy.  And with many branches, every download of code from these means a complete new full download.  Not so bad with small codebases, but with large codebases it can really take time.  And if you get many branches, keeping track of how they relate and what is done in each is no small task.  
 So those coming from a TFS VC environment have got a mental image that branching is hard, and many also tend to say that one should avoid branching all together, and not without reason. 
 
-#Git branching concepts
+# Git branching concepts
 
-###Concept #1:  A branch is a pointer
+### Concept #1:  A branch is a pointer
 Enter Git:   Git has a very lean (and mean) branching model. In Git a branch is nothing but a pointer to a commit (aka checkins in TFS VC).  
 Read that again: Just a **pointer**  to a commit.
 This is the 1st central concept. 
@@ -34,7 +34,7 @@ If we now create a new branch "MyBranch" using Visual Studio:
 
 ![BranchesInGit6](BranchesInGit_images\BranchesInGit6.png)
 
-And immidately we get the following result, there is no copying of files, no folders to make.  The creation is instantaneous. 
+And immidately we get the following result, there is no copying of files, no folders to make.  The creation is instantaneous, since all we do is to create a new pointer. 
 
 |     Visual Studio |   GitViz   |  SourceTree   | 
 |---------|:--------------:|:---------------|
@@ -71,7 +71,7 @@ If you have a local branch, and want to publish it, you do it from the same Bran
 Note that the branch is now visisble both directly under the repository Icon, and under the subfolder remotes/origin. 
 Note also that icon for the branch changed, see the "Before publishing" screenshot, that the master branch has a green arrow indicating it is part of tracked pair, whereas the MyBranch doesn't have this, meaning it is local only.   After the publishing it has also got the same indicator, meaning it is also tracked. 
 
-Usign GitViz again, it now looks like this:
+Using GitViz again, it now looks like this:
 
 ![BranchesInGit11](BranchesInGit_images\BranchesInGit11.png)
 
