@@ -54,6 +54,52 @@ Let us now assume that you didn't really want to merge these changes in now, you
 
 If you make it a habit of **always** working in a local branch,  these things can be done, and also, it opens up more possibilities.  
 
+Now let us repeat using a new local branch, name it TerjeWork.  Then we make a couple of commits in that branch.  Now, we also have a commit added remotely to the master branch.  
+
+![WorkingWithBranchesInGit6](WorkingWithBranchesInGit_images\WorkingWithBranchesInGit6.png)
+
+First, we don't see ANY remote changes until we do a fetch.  If we go to the Sync hub now, we will see that we have not published our branch, and if we do a fetch, nothing seems to be changed - in Visual Studio, **but** if we open up the same view in SourceTree, we will see the following
+
+![WorkingWithBranchesInGit7](WorkingWithBranchesInGit_images\WorkingWithBranchesInGit7.png)
+
+The fetch DID load down all the changes to our local repository, but Visual Studio only showed us only  what was happening with respect to our local branch.  
+
+We can now switch over to the master branch and have a look at the changes there, and then determine if we WANT to merge or not.  
+We can also choose to publish the branch for one of the reasons above.  
+And, we can even merge the changes FROM master into our local work branch!  
+
+Let us assume that we are really uncertain how that merge will work.  We don't want to spoil our own work, and we don't want to get into a corner with the master branch.
+
+## Using a local integration branch
+
+First we start with pulling the remote changes into local master, we don't really need to do that, we could merge directly too, but it feels more controlled.  To do this, switch over to the master branch  You switch over by using the Checkout command:
+
+![WorkingWithBranchesInGit8](WorkingWithBranchesInGit_images\WorkingWithBranchesInGit8.png)
+
+In the Sync hub you now see the incoming remote commit, and you choose Pull
+
+![WorkingWithBranchesInGit9](WorkingWithBranchesInGit_images\WorkingWithBranchesInGit9.png)
+
+Then switch back to the TerjeWork branch. 
+
+And then we create a new local branch from our TerjeWork branch, we call it TestTheMerge - we know it is only temporary, and the name doesn't matter.
+
+Now, on the Branches hub, select the Merge
+
+![WorkingWithBranchesInGit10](WorkingWithBranchesInGit_images\WorkingWithBranchesInGit10.png)
+
+And in the dropbox appearing, you choose the Master branch, and then press Merge
+
+|   Before Merge  |  After Merge |
+|-------|--------|
+|![WorkingWithBranchesInGit12](WorkingWithBranchesInGit_images\WorkingWithBranchesInGit12.png)|![WorkingWithBranchesInGit13](WorkingWithBranchesInGit_images\WorkingWithBranchesInGit13.png)|
+
+
+You now have a branch and a commit which you can use to test the merge.  If it works, you can then choose whether to merge it to your local working branch, or merge it back to master.  If you merge it back to master, you can then merge master back to TerjeWork again, and then continue working.  
+
+
+
+
 
 
 
