@@ -135,6 +135,7 @@ There is NO reason not to publish a branch in git.  It does no harm, it doesn't 
 Even if there are no reason not to publish a branch, there is a good reason why you should keep local branches local.  A published branch is available for everyone, and can't be changed afterwards.  A local branch **can** be changed afterwards in different ways, it is called "rewriting history", and it opens up some nice opportunities. More later on that too. 
 
 
+[Next:  [Rebasing in Git, and why it can help you](RebasingInGit)   
 
 
 
