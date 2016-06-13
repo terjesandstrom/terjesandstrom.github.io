@@ -137,8 +137,8 @@ table {
   width:100%;
   border-collapse:collapse;
   border-spacing:1px;
-  border:4px solid #F00000;
-   border-width: 2px;
+  border:4px solid #000000;
+   border-width: 1px;
 }
 
 th, td {
