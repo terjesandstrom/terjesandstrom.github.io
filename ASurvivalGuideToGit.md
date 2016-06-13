@@ -10,7 +10,7 @@ permalink: ASurvivalGuideToGit
 This guide is intended for those that feel the stuff on Git is [TL;DR](https://en.wikipedia.org/wiki/Wikipedia:Too_long;_didn%27t_read);, like this [great post](http://think-like-a-git.net/).    
 
 It concentrates on the bare minimum you need to know in order to be able to use Git.  
-It assumes you are using Visual Studio 2013 U4 or 2015. 
+It assumes you are using Visual Studio 2015 (but will also work for Visual Studio 2013). 
 We start with a simple scenario, that of a single developer working alone.  With alone we mean, "at the same time".  
 
 # Concepts   
@@ -67,4 +67,4 @@ Note that as long as things are in your local repository, you can regret, but on
 
 
 
-[Next :  Traps in Git](TrapsInGit)
+[Next : Branches in  Git](BranchesInGit)
