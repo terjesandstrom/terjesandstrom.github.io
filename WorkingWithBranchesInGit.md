@@ -11,7 +11,8 @@ The [Branches in Git](BranchesInGit) explained the basics of how branches works 
 If you are working by yourself, branches can be a convenience to keep yourself organised.  However, if you work in a small team, meaning from 2 or more developers working at the same time, then you **should** use local branches to keep a smooth work flow. 
 
 ### Small team working without branches
-John and Terje cooperates on working with the code.  John pushes up his commit, and Terje tries to commit his, but is rewarded with a message saying he can't push, because there already are changes on the remote. 
+
+Two persons cooperates on working with the code.  One pushes up his commit, and the other tries to commit his, but is rewarded with a message saying he can't push, because there already are changes on the remote. 
 
 ![WorkingWithBranchesInGit](WorkingWithBranchesInGit_images\WorkingWithBranchesInGit.png)
 
