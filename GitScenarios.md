@@ -7,7 +7,8 @@ tags: "git"
 permalink: GitScenarios
 ---
 
-There are multiple ways that Git can be used, and what is recommended depends on 1) what you do 2) How you work (alone or in a  team) 3) your own git maturity.   Git can be hard to get used to, and when you come from other systems, like TFS VC, it takes both some unlearning of old habits and some new learning of the Git ways.
+There are multiple ways that Git can be used, and what is recommended depends on 1) what you do 2) How you work (alone or in a  team) 3) your own git maturity.   
+Git can be hard to get used to, and when you come from other systems, like TFS VC, it takes time unlearning old habits and time learning the new Git ways.
 
 We can set up 4 scenarios:
 
