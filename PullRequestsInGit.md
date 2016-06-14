@@ -83,6 +83,41 @@ If we look at the build list, we will see that the pull request have been built 
 ![PullRequestsInGit5](img/PullRequestsInGit5.png)
 
 
+## Setting up policies
+
+Setting up policies is normally done by the admins, but we will set it up like shown below, which is a pretty strict setup. 
+
+![PullRequestsInGit6](img/PullRequestsInGit6.png)
+
+*   We will require a green build
+*   We will require a linked work item
+*   We will require one other reviewer
+
+Normally one would not allow users to approve their own changes, as shown, but in this case, I will enable that, so that I can get this in :-)
+
+**Note 1:** These policies can be set per branch, so you can have multiple policies going at the same time.  
+**Note 2:** When this is enabled, it will automatically disallow any direct pushes to the target branch
+**Note 3:** When we require a reviewer that reviewer also must Approve the pull request for it to be merged in
+
+
+If we enable this and push up another commit, the PR will show this:
+
+![PullRequestsInGit7](img/PullRequestsInGit7.png)
+
+If we now add a work item, it will still require a review to be done and approved, but when that is done, the merge will be done for us.
+
+![PullRequestsInGit8](img/PullRequestsInGit8.png)
+
+Notice that we now got a new merge commit.  It also offers to delete the source branch for us.  That makes sense if we worked out from a local work branch which we just published up.  If it is something that can have value as a tracking pointer, it should stay.  Again, the only thing being deleted is the branch pointer, no commits will be deleted.
+
+
+
+
+
+
+
+
+
 
 
 
