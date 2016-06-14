@@ -113,7 +113,7 @@ But there are some conventions for naming that could be wise to look into.  We w
 
 When talking about naming of branches, there is one trick that can be useful.  A branch can be named with a backslash, and that causes the git UIs to treat what is in front of the backslash as a group or folder, and what is after the backslash as the branch name proper.  The truth, mind you, is that the branch name is really the whole thing.
 
-Assume we want to handle our bugs in a particular way, we want to keep an easy track of them, so we keep them in the same "group", called Bug.  When we then get a bug, we create a branch for the fix named like  "Bug(backslash)NameIsWrong".  (We could even add the Workitem number here, alone or as part of the name of the branch, if that makes sense to us)
+Assume we want to handle our bugs in a particular way, we want to keep an easy track of them, so we keep them in the same "group", called Bug.  When we then get a bug, we create a branch for the fix named like  "Bug\NameIsWrong".  (We could even add the Workitem number here, alone or as part of the name of the branch, if that makes sense to us)
 
 Let us create this branch and see how it looks:
 
