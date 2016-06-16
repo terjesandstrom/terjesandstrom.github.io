@@ -20,4 +20,11 @@ We can set up 4 scenarios:
 | 4 | A team | Using pull requests and conventions on published branch naming | Experienced | [Pull Requests in Git](PullRequestsInGit)  |
 
 
+When you get into issues with your Git repo, the following posts can help you out:
+
+[Git Amend Commit:  How to add/change files and change comments on commits you have done](http://hermit.no/visual-studio-2015-git-amend-commit/)
+
+
+
+
 
