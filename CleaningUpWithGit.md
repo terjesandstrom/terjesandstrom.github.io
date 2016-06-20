@@ -55,6 +55,50 @@ And we can then go back to the TerjeWork branch and continue without the mess, o
 
 
 
-# Not so simple cleanups, using the Visual Studio Git cleanup tools
+# A little bit more advanced cleanups, using the Visual Studio Git cleanup tools
 
 There are two places in Visual Studio where you see the real git tools for cleaning up.  One is the Branches hub in team explorer, and the second is the history view. 
+
+There are 3 commands we can use,  Git revert,  Git reset hard and git reset mixed. 
+
+## "I have committed, but should not had done that.  But I at least didn't push it" - Use Git reset
+
+Go to the history view, you find this under many Team Explorer hubs, e.g.  the Changes Hub, under Actions - View History. 
+
+![CleaningUpWithGit4](img/CleaningUpWithGit4.png)
+
+Right click on the last one you want to keep.
+
+![CleaningUpWithGit5](img/CleaningUpWithGit5.png)
+
+You can do either mixed or hard reset
+
+With mixed - keep changes, it means your commit will be removed, but the content of the commit will remain in your workspace as uncommitted files.
+
+With hard - delete changes, it means your commit will be removed AND the contents of the commit will be deleted in your workspace.
+
+After any of these, you will see (after using the refresh on the history) that the commit is gone.
+
+![CleaningUpWithGit6](img/CleaningUpWithGit6.png)
+
+(1) The former commit is gone  and (2) the files are back in uncommitted state (as I used the mixed option)
+
+## "I pushed my commit too" - Use Git Revert
+
+Git revert can save you when you have pushed your commit to the remote too.  But notice, it doesn't really **revert** your commit if you think of that as removing your commit.  What it does is that it creates a new commit that cancels out your changes. 
+
+![CleaningUpWithGit7](img/CleaningUpWithGit7.png)
+
+We have pushed up a messy commit.  And we choose to revert it:
+
+![CleaningUpWithGit10](img/CleaningUpWithGit10.png)
+
+And we see in the history (after a refresh) that we have now got a new commit:
+
+![CleaningUpWithGit11](img/CleaningUpWithGit11.png)
+
+***Trick**
+
+If you inadvertently revert something, then you can do a Reset  -hard, and remove it again. 
+
+
