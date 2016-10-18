@@ -25,6 +25,12 @@ When you get into issues with your Git repo, the following posts can help you ou
 [Git Amend Commit:  How to add/change files and change comments on commits you have done](http://hermit.no/visual-studio-2015-git-amend-commit/)
 
 
+Management of git repos
+------------------
+
+[Creating git repos](CreatingANewGitRepository)
+
+
 
 
 
