@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AC10AEF1-7238-4247-AD7A-2940B8086F8B}"
 	ProjectSection(SolutionItems) = preProject
@@ -24,6 +24,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wiki", "Wiki", "{881FA7DF-9
 		build.md = build.md
 		wiki\git.md = wiki\git.md
 		wiki\gitinstall.md = wiki\gitinstall.md
+		gitinstallbasic.md = gitinstallbasic.md
 		wiki\nunit.md = wiki\nunit.md
 		TestingDontWork.md = TestingDontWork.md
 		wiki\visualstudio.md = wiki\visualstudio.md
@@ -52,5 +53,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BBCED6D6-FB77-4BC1-8B53-8AFBCA92662D} = {A9F9A0E8-571D-4E51-B299-77256E98551A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF47DE56-5A7D-4178-9A3F-7E66C3F59279}
 	EndGlobalSection
 EndGlobal
