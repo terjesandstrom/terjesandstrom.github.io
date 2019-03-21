@@ -7,9 +7,9 @@ permalink: gitinstallbasic
 
 ### Install git
 
-*[Windows: Install git proper](https://git-scm.com/download/win)  
-*[Linux: Install git proper](https://git-scm.com/download/linux)
-*[Mac OS: Install git proper](https://git-scm.com/download/mac)
+| Windows | Linux | MacOS |
+|----|----|----|
+| [Windows git](https://git-scm.com/download/win) | [Linux git](https://git-scm.com/download/linux) |[ Mac OS git](https://git-scm.com/download/mac) |
 
 ### Install Visual Studio Code
 
@@ -21,6 +21,7 @@ permalink: gitinstallbasic
 
 [SourceTree for MaxOS](https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_3.1.1_213.zip?_ga=2.247612480.698735789.1553020656-1415669506.1553020656
 )
+
 or
 
 [GitKraken for Windows](https://www.gitkraken.com/download/windows64)
