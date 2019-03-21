@@ -30,6 +30,8 @@ git --version
 |----|----|----|
 | [SourceTree for Windows](https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.0.17.exe?_ga=2.247612480.698735789.1553020656-1415669506.1553020656) | - | [SourceTree for MacOS](https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_3.1.1_213.zip?_ga=2.247612480.698735789.1553020656-1415669506.1553020656) |
 
+You need  valid Atlassian account (free) to install SourceTree, so [create that](https://id.atlassian.com/signup?continue=https%3A%2F%2Fwww.atlassian.com%2F&_ga=2.245448324.1237112649.1553187915-1756222521.1553187915) before you start.
+
 or
 
 | Windows | Other platforms |
