@@ -23,6 +23,7 @@ permalink: gitinstallbasic
 ) |
 
 or
+
 | Windows | Other platforms |
 |----|----|
 | [GitKraken for Windows](https://www.gitkraken.com/download/windows64) | [GitKraken, other plateforms](https://www.gitkraken.com/download) |
@@ -32,7 +33,14 @@ Install as module using:
 ```
 Install-Module -Name posh-git -RequiredVersion 0.7.3
 ```
+If you already have an earlier version installed, you must use the -Force parameter to update to the new version
+
+This command has to be run from an elevated command prompt.
+
+"Provides prompt with Git status summary information and tab completion for Git commands, parameters, remotes and branch names."
+
 [Information](https://www.powershellgallery.com/packages/posh-git/0.7.3) 
+
 
 #### For Visual Studio
 
