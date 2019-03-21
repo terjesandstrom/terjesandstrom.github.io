@@ -45,7 +45,19 @@ This command has to be run from an elevated command prompt.
 
 [Visual Studio git extension install](gitinstall)
 
-#### For Visual Studio Code
+#### For [Visual Studio Code](https://code.visualstudio.com/download)
 
 At the minimum, install [Git Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
+
+#### Visualizing the git tree
+
+GitViz, Superb tool for learning how the git tree works with commits and branches. Use during learning phase, or for teaching others. 
+
+[Download](https://github.com/Readify/GitViz/releases)
+
+#### Git aliases
+
+In the beginning it can be wise to not use aliases for the git commands, to learn them "as is".  However, after some time using aliases can give you a real speed-up. 
+
+[This post](http://hermit.no/visual-studio-and-vsts-git-extend-the-git-command-line-to-speed-up-your-workflow-part-1/), ([also see part 2](http://hermit.no/visual-studio-and-azure-devops-git-extend-the-git-command-line-with-server-commands-part-2/)) descibes how they work, and [this is my set of git aliases](https://gist.githubusercontent.com/OsirisTerje/e9d06c627405f576e6ebf85e2c09f3c4/raw/f34398cbe3eccccbfd5d58df3c4541f99ea47b84/GitAliases).
