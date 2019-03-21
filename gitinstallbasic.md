@@ -19,8 +19,7 @@ permalink: gitinstallbasic
 
 | Windows | Linux | MacOS |
 |----|----|----|
-| [SourceTree for Windows](https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.0.17.exe?_ga=2.247612480.698735789.1553020656-1415669506.1553020656) | - | [SourceTree for MacOS](https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_3.1.1_213.zip?_ga=2.247612480.698735789.1553020656-1415669506.1553020656
-) |
+| [SourceTree for Windows](https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.0.17.exe?_ga=2.247612480.698735789.1553020656-1415669506.1553020656) | - | [SourceTree for MacOS](https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_3.1.1_213.zip?_ga=2.247612480.698735789.1553020656-1415669506.1553020656) |
 
 or
 
@@ -30,10 +29,10 @@ or
 
 #### For Powershell users:
 Install as module using:
+``` 
+Install-Module -Name posh-git -RequiredVersion 0.7.3  
 ```
-Install-Module -Name posh-git -RequiredVersion 0.7.3
-```
-If you already have an earlier version installed, you must use the -Force parameter to update to the new version
+If you already have an earlier version installed, you must use the **-Force** parameter to update to the new version
 
 This command has to be run from an elevated command prompt.
 
