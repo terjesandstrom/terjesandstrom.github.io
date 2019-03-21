@@ -11,6 +11,15 @@ permalink: gitinstallbasic
 |----|----|----|
 | [Windows git](https://git-scm.com/download/win) | [Linux git](https://git-scm.com/download/linux) |[ Mac OS git](https://git-scm.com/download/mac) |
 
+If you have git installed, check that you are on the latest on, which is now (March 21st, 2019) 2.21.
+
+Use the command:
+```
+git --version
+```
+
+
+
 ### Install Visual Studio Code
 
 [Download](https://code.visualstudio.com/download)   Links to all targets
