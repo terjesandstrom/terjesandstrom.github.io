@@ -61,6 +61,23 @@ This command has to be run from an elevated command prompt.
 At the minimum, install [Git Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
 
+#### IFix
+
+[Command line tool](https://marketplace.visualstudio.com/items?itemName=OsirisTerje.IFix)
+
+Use the commands
+
+Get the latest gitignore file:
+```
+IFix gitignore -r -f
+```
+
+Merge what you have with the latest gitignore
+```
+IFix gitignore -m -f
+```
+
+
 #### Visualizing the git tree
 
 GitViz, Superb tool for learning how the git tree works with commits and branches. Use during learning phase, or for teaching others. 
