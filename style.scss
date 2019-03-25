@@ -19,13 +19,13 @@ html {
 
 body {
 	background: $white;
-  font: 14px/1.4 $helvetica;
+  font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 1024px;
+  max-width: 740px;
   padding: 0 10px;
   width: 100%;
 }
@@ -45,22 +45,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 30px;
   a {
     color: inherit;
   }
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 24px;
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 h4 {
-  font-size: 16px;
+  font-size: 18px;
   color: $gray;
 }
 
@@ -141,35 +141,6 @@ img {
 .clearfix:after {
     clear: both;
 }
-
-
-/*   TABLE STUFF */
-table {
-  width:100%;
-  border-collapse:seperate;
-  border-spacing:2px;
-  border-width: 1px;
-  border:2px solid #c0c0c0;
-}
-
-th, td {
-  text-align:left;
-  padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
-  border:2px solid #c0c0c0;
-}
-
-dt {
-  color:#444;
-  font-weight:700;
-}
-
-th {
-  color:#444;
-}
-
-
-
 
 /*********************/
 /* LAYOUT / SECTIONS */
