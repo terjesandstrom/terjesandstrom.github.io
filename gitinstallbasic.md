@@ -5,6 +5,8 @@ category: wiki
 permalink: gitinstallbasic
 ---
 
+
+
 ### Install git
 
 | Windows | Linux | MacOS |
