@@ -15,9 +15,9 @@ We can set up 4 levels or scenarios:
 |   Level |   Size | Description |   Maturity |   Links |
 |------|:-------:|:-------:|
 | 1 | Lone developer | Working alone or alone at a given time |   All new |  [Survival Guide to Git](ASurvivalGuideToGit)|
-| 2 | A small team | Two or more working at the same time    |  Beginner | [Overview of branching in Git](BranchesInGit)  ,   [Working with Git Branches](WorkingWithBranchesInGit) |
+| 2 | A small team | Two or more working at the same time    |  Beginner | [Overview of branching in Git](BranchesInGit),   [Working with Git Branches](WorkingWithBranchesInGit) |
 | 3 | A team | Using pull requests and conventions on published branch naming | Moderate | [Pull Requests in Git](PullRequestsInGit)  |
-| 4 | A team | A team working actively with lots of commits and pushes | Experienced | [Rebasing in Git](RebasingInGit)  [Cleaning up Git mess](CleaningUpWithGit)|
+| 4 | A team | A team working actively with lots of commits and pushes | Experienced | [Rebasing in Git](RebasingInGit),  [Cleaning up Git mess](CleaningUpWithGit)|
 
 
 
