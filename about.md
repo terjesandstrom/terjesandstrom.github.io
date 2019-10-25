@@ -15,9 +15,9 @@ Go straight to the [wiki](wiki.md)
 ### More Information
 
 [Main blog](http://hermit.no)   
-[About me](http://about.me/terjes)
+[About me](http://hermit.no/about)
 
 
 ### Contact me
 
-Send me a private message on [Facebook](http://facebook.com/Terje.Sandstrom) or [Twitter](http://twitter.com/OsirisTerje)
+Send me a private message on [LinkedIn](https://www.linkedin.com/in/terjesandstrom/), [Facebook](http://facebook.com/Terje.Sandstrom) or [Twitter](http://twitter.com/OsirisTerje)
