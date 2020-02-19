@@ -5,9 +5,7 @@ permalink: /about/
 published: true
 ---
 
-
-Independent consultant and Visual Studio ALM MVP
-
+Solidify CSO and Microsoft Development Technologies MVP
 
 Go straight to the [wiki](wiki.md)
 
